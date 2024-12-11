@@ -1,5 +1,5 @@
 function createHelloWorld() {
-  return () => console.log('Hello wolrd');
+  return () => 'Hello World';
 }
 
 const f = createHelloWorld();
